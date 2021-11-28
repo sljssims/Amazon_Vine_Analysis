@@ -1,6 +1,6 @@
 # Amazon_Vine_Analysis
 ### Deliverable 1
-Using one of the amazon urls provided, information was parsed 
+Using an amazon url containing the reviews of pet toys.  
 
 ## ![Review Dataset](https://user-images.githubusercontent.com/87907584/143773875-596e554e-eddc-4ff6-8894-8ab68181c06b.png)
 
