@@ -16,3 +16,6 @@ Using an amazon url with customer reviews for pet toys for the first deliverable
 ## ![review_id_df](https://user-images.githubusercontent.com/87907584/143774056-9cdcf1ac-e1ea-493d-a495-8af18ffc43e3.png)
 
 ## ![vine_df](https://user-images.githubusercontent.com/87907584/143774095-a656dc9d-34c9-4012-9849-23dc0e11d564.png)
+
+### Deliverable 2 (Determine Bias of Vine Reviews)
+Using either PySpark, Pandas, or SQL, use the vine dataset to determine if paid five star reviews are biased. 
