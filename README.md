@@ -1,5 +1,5 @@
 # Amazon_Vine_Analysis
-### Deliverable 1 (Perform an ETL on selected dataset)
+### Perform an ETL on selected dataset
 Using an amazon url with customer reviews for pet toys for the first deliverable.  The task of extracting the data was completed using the following methods;
 - Pyspark was used to read in the CSV file and functions were used to transform and filter the data
 - An RDS was created using AWS
@@ -17,16 +17,18 @@ Using an amazon url with customer reviews for pet toys for the first deliverable
 
 ## ![vine_df](https://user-images.githubusercontent.com/87907584/143774095-a656dc9d-34c9-4012-9849-23dc0e11d564.png)
 
-### Deliverable 2 (Determine Bias of Vine Reviews)
-Using either PySpark, Pandas, or SQL, use the vine dataset to determine if paid five star reviews are biased. 
 
-### Overview of the Analysis of Vine Bias
+### Overview Analysis of Vine data to determine if paid reviews are biased
 - How many Vine reviews and non-Vine reviews were there? <br>
-Total number of reviews was calculated at 38010. 
+Total number of reviews was determined to be 38010. <br>
+![Total Number of Reviews](https://user-images.githubusercontent.com/87907584/143924731-423b6af8-0da4-4142-b518-c85e5281441d.PNG) <br>
 - How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?<br>
-The total number of 5 star reviews was calculated at 20677 with 14950 reviews being vine 5 star reviews and 5727 reviews being non-vine 5 star reviews.
+The total number of 5 star reviews was calculated at 20677 with 14950 reviews being vine 5 star reviews and 5727 reviews being non-vine 5 star reviews. <br>
+![Total number of 5 star Reviews](https://user-images.githubusercontent.com/87907584/143924741-f3b2c317-4332-45cc-ad58-c85f2624eabb.PNG) <br>
 - What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars? <br>
-The percentage of vine reviews was determined to be 57% compared to 47% for non-vine reviews. 
+![Percentage of Vine and Non Vine Reviews](https://user-images.githubusercontent.com/87907584/143924746-f934ac69-4954-41b7-9cba-cfe560746c11.PNG) <br>
 ## Summary
  - In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. <br> 
+Based on the data, there is not a positive bias present for paid reveiws. 54% percent of reviews were five star reviews as previously calculated.  
  - Provide one additional analysis that you could do with the dataset to support your statement. <br>
+ If we expanded the dataset to include 4 star reviews as well as include the review of the parent product we could obtain a more specific dataset of individuals to market to.  From a business perspective, this dataset could assist with the new product launch and target individuals who have shown to respond to target marketing due to the inclusion of the 'parent product' variable in the new anlysis. 
