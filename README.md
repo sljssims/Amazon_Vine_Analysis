@@ -21,9 +21,12 @@ Using an amazon url with customer reviews for pet toys for the first deliverable
 Using either PySpark, Pandas, or SQL, use the vine dataset to determine if paid five star reviews are biased. 
 
 ### Overview of the Analysis of Vine Bias
-- How many Vine reviews and non-Vine reviews were there?
-- How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-- What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+- How many Vine reviews and non-Vine reviews were there? <br>
+Total number of reviews was calculated at 38010. 
+- How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?<br>
+The total number of 5 star reviews was calculated at 20677 with 14950 reviews being vine 5 star reviews and 5727 reviews being non-vine 5 star reviews.
+- What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars? <br>
+The percentage of vine reviews was determined to be 57% compared to 47% for non-vine reviews. 
 ## Summary
- - In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. 
- - Provide one additional analysis that you could do with the dataset to support your statement.
+ - In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. <br> 
+ - Provide one additional analysis that you could do with the dataset to support your statement. <br>
